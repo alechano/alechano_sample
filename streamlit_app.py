@@ -10,6 +10,7 @@ ad.user_cache_dir = lambda *args: "/tmp"
 st.title("Welcome to 'Kalakal' Trading Company")
 st.write('This is the best trading company from Philippines')
 st.markdown("*Kalakal* is **a Great** ***Trading Company!***.")
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh5Mj57Qmv0spaHz01IqRvpmQPq6cS6sG9Wg&s")
 
 multi = '''If you want to learn more about Kalakal,
 
