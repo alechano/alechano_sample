@@ -7,6 +7,15 @@ import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
 
+st.title("Welcome to 'Kalakal' Trading Company")
+st.write('This is the best trading company from Philippines')
+st.markdown("*Kalakal* is **a Great** ***Trading Company!***.")
+
+multi = '''If you want to learn more about Kalakal,
+
+I will tell about it later, but first see the graph and table below:
+'''
+st.markdown(multi)
 # Specify title and logo for the webpage.
 # Set up your web app
 st.set_page_config(layout="wide", page_title="WebApp_Demo")
